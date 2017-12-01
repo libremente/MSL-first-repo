@@ -8,12 +8,12 @@ dentro al file una stringa di testo. Enjoy!
 # How-to
 1. Scaricare l'ultima release del file.
 2. Controllare i permessi di esecuzione. In GNU/Linux questo si ottiene con 
-```
+```bash
 sudo ls -l
 sudo chmod u+x MSL_SCRIPT.sh
 ```
 3. Eseguire con 
-```
+```bash
 ./MSL_SCRIPT.sh
 ```
 4. Enjoy"
