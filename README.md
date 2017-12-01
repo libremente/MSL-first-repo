@@ -16,7 +16,7 @@ sudo chmod u+x MSL_SCRIPT.sh
 ```bash
 ./MSL_SCRIPT.sh
 ```
-4. Enjoy"
+4. Enjoy!!  
 
 # How-to Contribute
 1. Fork del repository.
