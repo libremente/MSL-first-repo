@@ -18,6 +18,7 @@ if [ ! -d "$MYPATH/$DIRECTORY" ]; then
         echo "Creata"
     else
         echo "C'è stato un errore durante la creazione, controlla i permessi" 
+        exit
     fi
 else
     echo "La cartella esiste già!"
