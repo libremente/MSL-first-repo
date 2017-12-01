@@ -2,13 +2,15 @@
 # Script di esempio
 
 # Creo la cartella "provaDir"
-MYPATH="/home/surf/Scrivania"
+HOMEDIR=~
+eval HOMEDIR=$HOMEDIR
+MYPATH="$HOMEDIR/Scrivania"
 DIRECTORY="provaDir"
 FILENAME="provaFile"
 FILETEXT="W GNU!"
 
 # Check se non esiste
-echo "Controllo l'esistenza della cartella..."
+echo "Controllo l'esistenza della cartella $MYPATH/$DIRECTORY..."
 if [ ! -d "$MYPATH/$DIRECTORY" ]; then
     echo "La cartella non esiste, la creo..."
     mkdir -p "$MYPATH/$DIRECTORY"
